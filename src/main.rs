@@ -1,4 +1,4 @@
-use shut_up::{trust_me, shut_up, cpp_start, i_am_your_father, freestyle,
+use shut_up::{trust_me, shut_up, cpp_start, sudo, i_am_your_father, freestyle,
               i_hereby_declare_that_i_fully_understand_that_any_consequence_is_my_own_liability,
               i_can_do_it, get_approval_from_a_senior_or_you_will_get_fired, showtime};
 
@@ -13,6 +13,10 @@ fn main() {
 
     cpp_start! {
         println!("C++, Start!");
+    }
+
+    sudo! {
+        println!("I am the superuser! Let me do it!");
     }
 
     i_am_your_father! {
